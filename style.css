@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 20px;
  }
  .right > ul{
     display: flex;
@@ -199,12 +200,10 @@
    margin: 20px;
   
 }
-.blog-title{
-   font-size: 65px;
-}
+
 .blog-desc{
    font-size: 20px;
- 
+    
 
 }
 .blog-card{
@@ -227,11 +226,55 @@
    
 }
 .blog-title{
-   font-size: 25px;
+   font-size: 65px;
    color: rgb(71, 69, 65);
  
 }
 .card-desc{
    padding: 10px;
    color: gray;
+}
+/* footer section  */
+footer {
+   background-image: url(asset/image/footer-bg.png),linear-gradient(rgba(0,0,06),rgb(51, 45, 45));
+   background-repeat: no-repeat;
+   background-position: center;
+   
+}
+.footer-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 130px;
+   color: white;
+}
+.footer-one{
+  width: 25%;
+}
+.footer-one img{
+   margin: 20px;
+}
+.icons{
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  
+}
+.icons > i{
+   margin-right: 20px;
+}
+.footer-title {
+   margin: 20px;
+}
+.footer-title,p{
+   margin: 10px;
+}
+.copy{
+   display: flex;
+  padding: 20px;
+   justify-content: center;
+   margin-bottom: 90px;
+   border-top:1px solid white ;
+   color: white;
+   margin: 0px 100px;
 }
