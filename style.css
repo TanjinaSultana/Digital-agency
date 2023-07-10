@@ -158,3 +158,38 @@
    display: flex;
    align-items: center;
 }
+/* section three */
+.section-three{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: red;
+   border: 1px solid red;
+   border-radius: 10px;
+   padding: 20px;
+   margin: -70px 160px 30px;
+
+}
+.contact-img img{
+   width: 150px;
+  height: 150px;
+  
+ 
+}
+.contact , .appointment{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.contact-desc{
+   border-right: 1px solid white;
+  padding: 10px;
+  
+}
+
+.contact{
+   padding: 10px;
+}
+.appointment{
+   width: 60%;
+}
